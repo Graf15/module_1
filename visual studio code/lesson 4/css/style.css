@@ -1,0 +1,203 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+article {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 10px;
+}
+
+.article-1 {
+    background-color: #0D5825;
+    color: white;
+}
+
+blockquote {
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 150px;
+    position: relative;
+    top: 0;
+    transition: top 0.5s;
+}
+
+.card:hover {
+    top: -7%;
+}
+
+
+.card1 {
+    transform: rotate(-25deg) translate(60%, 18%);
+}
+
+.card2 {
+    transform: rotate(-10deg);
+}
+
+.card3 {
+    transform: rotate(8deg) translate(-60%, 12%);
+}
+
+.article-2 {
+   position: relative;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    }
+
+.square-left {
+    background-color: #FF8888;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -210%);
+}
+
+.square-center {
+    background-color: #7E8AEB;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.square-right {
+    background-color: #4DEF99;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -190%);
+}
+
+.article-3 {
+    padding: 0;
+}
+
+.article-3:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.menu{
+    height: 100%;
+    width: 300px;
+    background-color: #808080;
+    padding: 50px 10px 10px 30px;
+    float: left;
+    
+}
+
+.menu ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: color .5s;
+}
+
+.menu li{
+    margin-bottom: 0.5em;
+}
+
+.menu li:last-child {
+    margin-bottom: 0;
+}
+
+.menu li:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: orange;
+    border: solid 2px black;
+    margin-right: 20px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.15em;
+}
+
+.menu a:hover{
+    color: orange;
+}
+
+.menu-up {
+    width: 30px;
+    height: 100%;
+    background-color: #808080;
+    float: left;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    text-transform: uppercase;
+    color: white;
+    transition: color 0.5s;
+}
+
+.navwrapper {
+    width: 330px;
+    height: inherit;
+    position: relative;
+    left: -300px;
+    transition: left .5s;
+}
+
+.navwrapper:hover {
+    left: 0px;    
+}
+
+.navwrapper:hover .menu-up{
+    color: transparent;
+}
+
+@keyframes square-go {
+    0% {
+        background-color: red;
+        top: 20%;
+        left: 20%;
+    }
+    25%{
+        background-color: blue;
+        top: 70%;
+        left: 20%;
+    }
+    50%{
+        background-color: green;
+        top: 70%;
+        left: 70%;
+    }
+    75% {
+        background-color: yellow;
+        top: 20%;
+        left: 70%;
+    }
+    100% {
+        background-color: red;
+        top: 20%;
+        left: 20%;
+    }
+}
+
+.square-go {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: square-go 10s infinite;
+}
+
+.article-4 {
+    position: relative;
+}

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.body-wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper{
+    max-width: 1110px;
+    position: relative;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.first-screen{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    background-color: #EEEFF1;
+}
+
+.first-screen-img{
+width: 50%;
+padding: 90px 116px 0 0;
+display: flex;
+justify-content: end;
+align-items: center;
+}
+
+.first-screen-img img{
+    width: 357px;
+    height: auto;
+    max-width: 100%;
+}
+
+.first-screen-text{
+width: 50%;
+padding: 111px 0 0 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.64;
+    vertical-align: baseline;
+    width: 540px;
+    max-width: 100%;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.subheader{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+    max-width: 100%;
+    margin: 0 0 60px 0;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 25px 41px;
+    background-color: #34547A;
+    text-transform: uppercase;
+}
+
+.logo-and-menu {
+position: absolute;
+width: 100%;
+top: 0;
+left: 50%;
+transform: translate(-50%, 0);
+display: flex;
+justify-content: space-between;
+padding-top: 57px;
+}
+
+.logo{
+    display: inline-block;
+    width: 85px;
+    height: 38px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
+.menu li{
+    display: block;
+    margin-right: 42px;
+}
+
+.menu:last-child {
+    margin-right: 0;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 119px 15px 100px;
+}
+
+.about_me h2 {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.about_me p {
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 540px;
+    max-width: 100%;
+ }
+
+.numbers {
+    background-color : #34547A;
+    
+}
+
+.numbers_wrapper {
+    display: flex;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+ }
+
+.numbers_item {
+    display: flex;
+    width: calc(100%/6 - 10px);
+    margin: 50px 10px;
+    align-items: flex-start;
+}
+
+.numbers_item_img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.numbers_item_text {
+    color: white;
+    flex-grow: 1;
+
+}
+
+.numbers_item_text h3,
+.numbers_item_text p {
+    margin: 0;
+}
+
+.numbers_item_text h3 {
+    margin-bottom: 10px;
+}
+
+.skills-wrapper {
+    width: 1150px;
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.skill-list {
+    color: #727272;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 455px;
+    max-width: 445px;
+  }
+  
+  .skill-item + .skill-item {
+    padding-top: 30px;
+  }
+  
+  .skill-title {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .skill-load {
+    position: relative;
+    height: 4px;
+    background: #C4C4C4;
+  }
+  
+  .skill-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #34547A;
+  }
+
+  .skills-face {
+    width: 50%;
+    padding: 101px 21px;
+    display: flex;
+    align-items: center;
+  }
+
+  .face {
+    width: 555px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .skill-list-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 101px 21px ;
+    margin-right: 108px;
+  }
+
+    .video {
+        background-color: #EEEFF1;
+    }
+
+  .video-wrapper {
+    width: 1150px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px;
+  }
+
+  .video_title {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .video h2,
+  .video p {
+    margin-bottom: 50px;
+  }
+
+  .video-frame-img {
+    width: 100%
+  }
+
+  .video-img::before {
+    content: "qsf sdfsdf sadfsdf";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .video-frame {
+    display: block;
+    max-width: 1110px;
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+  

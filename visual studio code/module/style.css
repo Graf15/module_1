@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cvgk7x');
+  src:  url('fonts/icomoon.eot?cvgk7x#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cvgk7x') format('truetype'),
+    url('fonts/icomoon.woff?cvgk7x') format('woff'),
+    url('fonts/icomoon.svg?cvgk7x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-agriculture:before {
+  content: "\e900";
+}
+.icon-architecture:before {
+  content: "\e901";
+}
+.icon-automotive:before {
+  content: "\e902";
+}
+.icon-bms:before {
+  content: "\e903";
+}
+.icon-city:before {
+  content: "\e904";
+}
+.icon-cloud-development:before {
+  content: "\e905";
+}
+.icon-cloud:before {
+  content: "\e906";
+}
+.icon-comparison:before {
+  content: "\e907";
+}
+.icon-consumer:before {
+  content: "\e908";
+}
+.icon-development-support:before {
+  content: "\e909";
+}
+.icon-energy:before {
+  content: "\e90a";
+}
+.icon-fm:before {
+  content: "\e90b";
+}
+.icon-gateway:before {
+  content: "\e90c";
+}
+.icon-healtcare:before {
+  content: "\e90d";
+}
+.icon-industrial:before {
+  content: "\e90e";
+}
+.icon-logistic:before {
+  content: "\e90f";
+}
+.icon-analytics:before {
+  content: "\e910";
+}
+.icon-platform:before {
+  content: "\e911";
+}
+.icon-retail:before {
+  content: "\e912";
+}
+.icon-sm:before {
+  content: "\e913";
+}
+.icon-sport:before {
+  content: "\e914";
+}
+.icon-telecom:before {
+  content: "\e915";
+}
+.icon-user:before {
+  content: "\e916";
+}
+.icon-wearables:before {
+  content: "\e917";
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.list-item + .list-item {
+  padding-left: 15px;
+}
+
+.list-link {
+  color: orangered;
+  text-decoration: none;
+}
+
+/* .list-link svg {
+  width: 24px;
+  fill: orangered;
+} */
+
+.list-link:hover{
+  color: violet;
+}
+
+/* .list-link:hover svg {
+  fill: violet;
+} */
+
+.skill-list {
+  color: #727272;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 445px;
+}
+
+.skill-item + .skill-item {
+  padding-top: 30px;
+}
+
+.skill-title {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.skill-load {
+  position: relative;
+  height: 4px;
+  background: #C4C4C4;
+}
+
+.skill-progress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #34547A;
+}
+
+.gallary-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallary-item {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  padding-top: 25%;
+  position: relative;
+}
+
+.qwqq {
+ background-color: red;
+}

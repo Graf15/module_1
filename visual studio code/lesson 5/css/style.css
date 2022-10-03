@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+text-align: center;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1;
+    display: flex;
+}
+
+
+.footer{ 
+    background-color: rgb(132,233,132);
+    padding: 30px;
+}
+
+aside{
+    flex-basis: 210px;
+    padding: 10px 10px;
+}
+
+.aside1{
+order: -1;
+background-color: rgb(199,152,185);
+}
+
+.aside2{
+    background-color: rgb(156,177,199);
+}
+
+main {
+    flex: 1;
+    padding: 20px 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(211,183,20);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    }
+
+.menu li{
+    margin-right: 20px;
+}
+.menu :last-child{
+    margin-right: 0;
+}
+
+.cardwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardwrapper a {
+    border: 1px solid black;
+    border-radius: 7%;
+    padding: 15px;
+    flex-basis: 300px;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cardwrapper a:hover {
+    box-shadow: 0 14px 28px rgba(104,81,116,0.25), 0 10px 10px rgba(104,81,116,0.22);
+}
+
+.cardwrapper article{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cardwrapper img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.cardwrapper h2{
+    margin-bottom: 10px;
+}
+
+.cardwrapper p {
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.button {
+    padding: 5px 20px;
+    background-color: rgb(104,81,116);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.level3 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder {
+    border: 5px solid black;
+    width: 600px; 
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.item {
+    padding: 30px;
+    text-align: center;
+}
+
+.item:nth-of-type(1) {
+    background-color: rgb(253,100,77);
+    width: 50%;
+    order: 1;
+    text-align: center;
+}
+.item:nth-of-type(2) {
+    background-color: rgb(73,131,178);
+    width: calc(100%/3);
+    order: 4;
+}
+.item:nth-of-type(3) {
+    background-color: rgb(102,55,151);
+    width: calc(100%/3);
+    order: 3;
+}
+.item:nth-of-type(4) {
+    background-color: rgb(14,127,18);
+    width: calc(100%/3);
+    order: 5;
+}
+.item:nth-of-type(5) {
+    background-color: rgb(253,164,41);
+    width: 50%;
+    order: 2;
+}
